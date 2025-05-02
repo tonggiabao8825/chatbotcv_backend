@@ -1,6 +1,6 @@
-from fastapi import FastAPI, Request
+from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-import sys
+import uvicorn
 import os
 from chat_router import router as chat_router
 
@@ -10,25 +10,26 @@ app = FastAPI(
     version="1.0.0"
 )
 
-#CORS
+# CORS configuration
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  
+    allow_origins=[
+        "http://localhost:8000",
+        "https://tonggiabao.id.vn"
+    ],
     allow_credentials=True,
-    allow_methods=["GET", "POST", "OPTIONS"],  
-    allow_headers=["*"],  
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 app.include_router(chat_router)
 
+
 @app.get("/")
 async def root():
-    return {
-        "Conn is ok"
-    }
+    return {"message": "Conn is ok"}
 
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 8000))  # Lấy PORT từ môi trường Render
-    uvicorn.run("main:app", host="0.0.0.0", port=port, reload=True)
-
-
+    port = int(os.environ.get("PORT", 8000))  # Get PORT from environment (Render) or default to 8000
+    reload = os.environ.get("RENDER", "0") != "1"  # Disable reload on Render
+    uvicorn.run("main:app", host="0.0.0.0", port=port, reload=reload)
