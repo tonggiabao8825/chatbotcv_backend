@@ -15,7 +15,10 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:8000",
-        "https://tonggiabao.id.vn"
+        "https://tonggiabao.id.vn",
+        "tonggiabao.id.vn",
+        "www.tonggiabao.id.vn",
+        "https://tonggiabao.github.io/demochatbotcv"
     ],
     allow_credentials=True,
     allow_methods=["*"],
