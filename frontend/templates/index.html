@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>CV Assitant</title>
+</head>
+<body>
+    <div class="container">
+        <div class="chat-container">
+            <div class="sidebar">
+                <div class="back-button">
+                    <a href="../frontend/templates/index.html"><i class='bx bx-left-arrow-alt'></i>Change profile to chat</a>
+                </div>
+                <div class="profile">
+                    <div class="avatar">
+                        <img src="../assets/images/avatar_baro.png" alt="Profile Avatar">
+                    </div>
+                    <div class="name">
+                        <h3>Tống Gia Bảo</h3>
+                        <h4>(BaroDev)</h4>
+                    </div>
+                    <div class="general">
+                        <p>AI Engineer</p>
+                    </div>
+                    <div class="career">
+                        <p><i class='bx bx-briefcase'></i> General AI Engineer</p>
+                        <br>
+                        <p> <i class='bx bx-briefcase'></i> Programming Tutor</p>
+                        <br>
+                        <p><i class='bx bx-briefcase'></i>Adsense Expert</p>
+
+                    </div>
+                    <div class="contact">
+                        <div class="contact-title">
+                            <i class='bx bx-id-card'></i> Connect with me
+                        </div>
+                        <div class="contact-icons">
+                            <a href="https://www.facebook.com/TongGiaBao.User" target="_blank" title="Facebook">
+                                <i class='bx bxl-facebook-circle'></i>
+                            </a>
+                            <a href="https://github.com/tonggiabao8825" target="_blank" title="GitHub">
+                                <i class='bx bxl-github'></i>
+                            </a>
+                            <a href="https://t.me/barodev" target="_blank" title="Telegram">
+                                <i class='bx bxl-telegram'></i>
+                            </a>
+                            <a href="https://zalo.me/0966720805" target="_blank" title="Zalo">
+                                <i class='bx bx-message-rounded-dots'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="chat-area">
+                <div class="chat-header">
+                </div>    
+                <div id="chat-box">
+                    <div class="welcome-message">
+                        <h3>You start a chat with Baro....</h3>
+                        <p>Connected successfully!</p>
+                    </div>
+                    <div class="bot-message">
+                        <p>Hello guys! My name is Jarvis, BaroDev's Assitant. Baro call me "Just a rather vitual intelligent system", but I think I absolutely better than he think. Chat with me in your language!</p>
+                    </div>
+                    <!-- Typing indicator -->
+                    <div class="typing-indicator">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div> 
+                <div class="chat-input">
+                    <input type="text" id="user-input" placeholder="Ask me any thing you want..." autofocus>
+                    <button id="send-button">
+                        Gửi
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="../assets/js/chatbot.js"></script>
+</body>
+</html>
