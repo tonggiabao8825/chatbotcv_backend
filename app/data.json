@@ -1,0 +1,52 @@
+{
+  "ho_ten": "Tống Gia Bảo (Baro)",
+  "nam_sinh": 2005,
+  "dia_chi": "Hà Nội, Việt Nam",
+  "email": "tonggiabao.media@gmail.com",
+  "telegram": "@barodev",
+  "website": [
+    "https://barolearnwith.me",
+    "https://barodev.site"
+  ],
+  "muc_tieu_nghe_nghiep": "Trở thành kỹ sư AI và xây dựng một trợ lý ảo thông minh giống Jarvis (Iron Man). Đam mê nghiên cứu AI, bảo mật, lập trình ứng dụng và mong muốn tạo ra những sản phẩm công nghệ mang lại giá trị cho cộng đồng.",
+  "hoc_van": [
+    "2020–2023: THPT Mai Anh Tuấn",
+    "2023–nay: Đại học Điện lực, chuyên ngành Công nghệ Thông tin"
+  ],
+  "ky_nang_chuyen_mon": {
+    "ngon_ngu_lap_trinh": ["C", "Python", "JavaScript/jQuery", "PHP/Laravel"],
+    "frontend": ["HTML5", "CSS3", "JavaScript (nâng cao)"],
+    "backend": ["PHP (Laravel)", "Python"],
+    "ai_ml": ["Nghiên cứu và thực nghiệm các mô hình deep learning", "CNN", "RNN", "LSTM"],
+    "bao_mat": ["Hiểu biết về các khái niệm tấn công cơ bản", "botnet", "API"],
+    "ngoai_ngu": "Tiếng Anh (giao tiếp tốt, đọc hiểu tài liệu kỹ thuật)"
+  },
+  "dich_vu_cung_cap": [
+    "Thiết kế landing page đẹp mắt, chuẩn SEO, tương thích đa thiết bị",
+    "Triển khai quảng cáo số trên Facebook, TikTok, Instagram",
+    "Tư vấn bảo mật website, cài đặt chống DDoS"
+  ],
+  "cau_chuyen_phat_trien": [
+    "2017: Học lập trình C, đặt nền móng đầu tiên",
+    "Lớp 10: Tò mò với website, tự nghiên cứu, chỉnh sửa source code",
+    "Front-end: Tự tạo, chỉnh sửa website, thấy hứng thú với sáng tạo",
+    "Lớp 12: Bước vào lĩnh vực security, nghiên cứu cách công cụ tấn công hoạt động, hiểu các khái niệm scripts kiddie",
+    "Kết nối cộng đồng, nghiên cứu botnet, viết API, thậm chí mua bán tài nguyên"
+  ],
+  "du_an_tieu_bieu": [
+    "Website bán máy tẩy lông",
+    "Website sản phẩm thải độc đại tràng",
+    "Website máy lọc nước",
+    "Dự án về kickboxing, bếp, làng nghề",
+    "Hệ thống nhận diện cử chỉ tay, phân loại ảnh, ứng dụng deep learning",
+    "Chatbot RAG pipeline, backend FastAPI"
+  ],
+  "fun_fact": "Là fan lớn của Spider-Man. Thần tượng Tony Stark (Iron Man), đặc biệt yêu thích Jarvis — trợ lý ảo siêu thông minh. Giấc mơ: tự mình xây dựng một AI virtual assistant.",
+  "lien_he": {
+    "email": "tonggiabao.media@gmail.com",
+    "telegram": "@barodev",
+    "website": [
+      "https://barolearnwith.me"
+    ]
+  }
+}
