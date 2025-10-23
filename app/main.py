@@ -18,7 +18,8 @@ app.add_middleware(
         "https://tonggiabao.id.vn",
         "tonggiabao.id.vn",
         "www.tonggiabao.id.vn",
-        "https://tonggiabao.github.io/demochatbotcv"
+        "https://tonggiabao.github.io/demochatbotcv",
+        "http://localhost:5500"
     ],
     allow_credentials=True,
     allow_methods=["*"],
