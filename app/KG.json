@@ -1,0 +1,58 @@
+{
+  "nodes": [
+    { "id": "1", "label": "Person", "name": "Tống Gia Bảo", "birthdate": "2005-08-08", "gender": "Nam", "role": "AI Engineer & Backend Developer", "current_study": "Đại học Điện Lực" },
+    { "id": "2", "label": "Person", "name": "Tống Quang Vịnh", "relation": "Father" },
+    { "id": "3", "label": "Person", "name": "Trần Thị Nguyệt", "relation": "Mother" },
+    { "id": "4", "label": "Person", "name": "Tống Đức Mạnh", "relation": "Brother" },
+
+    { "id": "5", "label": "School", "name": "Mầm non Nga Liên" },
+    { "id": "6", "label": "School", "name": "Tiểu học Nga Liên 1", "class": "Lớp A" },
+    { "id": "7", "label": "School", "name": "THCS Nga Liên", "class": "Lớp A" },
+    { "id": "8", "label": "School", "name": "THPT Mai Anh Tuấn", "class": "Lớp M" },
+    { "id": "9", "label": "University", "name": "Đại học Điện Lực", "year": "Hiện tại" },
+
+    { "id": "10", "label": "Person", "name": "Phong", "relation": "Close Male Friend" },
+    { "id": "11", "label": "Person", "name": "Quân", "relation": "Close Male Friend" },
+    { "id": "12", "label": "Person", "name": "Thắng", "relation": "Close Male Friend" },
+    { "id": "13", "label": "Person", "name": "Đạt", "relation": "Close Male Friend" },
+
+    { "id": "14", "label": "Person", "name": "Bùi Giang", "relation": "Close Female Friend" },
+    { "id": "15", "label": "Person", "name": "Cao Giang", "relation": "Close Female Friend" },
+    { "id": "16", "label": "Person", "name": "Trần Trang", "relation": "Close Female Friend" },
+    { "id": "17", "label": "Person", "name": "Nga", "relation": "Close Female Friend" },
+    { "id": "18", "label": "Person", "name": "Nhi", "relation": "Close Female Friend" },
+
+    { "id": "19", "label": "Person", "name": "Lại Đỗ Lan Anh", "relation": "Love", "period": "Lớp 10" },
+    { "id": "20", "label": "Person", "name": "Phan Thị Huyền", "relation": "Love", "period": "Lớp 11" },
+    { "id": "21", "label": "Person", "name": "Khánh Vy", "relation": "Love", "period": "Lớp 12" },
+    { "id": "22", "label": "Person", "name": "Lê Thị Mai Hoa", "relation": "Love", "period": "Năm 2 Đại học" },
+    { "id": "23", "label": "Person", "name": "Đỗ Thị Thùy Trang", "relation": "Love", "period": "Năm 3 Đại học", "start_date": "2025-09-07" }
+  ],
+  "relationships": [
+    { "from": "1", "to": "2", "type": "HAS_FATHER" },
+    { "from": "1", "to": "3", "type": "HAS_MOTHER" },
+    { "from": "1", "to": "4", "type": "HAS_BROTHER" },
+
+    { "from": "1", "to": "5", "type": "STUDIED_AT", "time": "Mầm non" },
+    { "from": "1", "to": "6", "type": "STUDIED_AT", "time": "Cấp 1" },
+    { "from": "1", "to": "7", "type": "STUDIED_AT", "time": "Cấp 2" },
+    { "from": "1", "to": "8", "type": "STUDIED_AT", "time": "Cấp 3" },
+    { "from": "1", "to": "9", "type": "STUDIED_AT", "time": "Đại học" },
+
+    { "from": "1", "to": "10", "type": "FRIEND_WITH" },
+    { "from": "1", "to": "11", "type": "FRIEND_WITH" },
+    { "from": "1", "to": "12", "type": "FRIEND_WITH" },
+    { "from": "1", "to": "13", "type": "FRIEND_WITH" },
+    { "from": "1", "to": "14", "type": "FRIEND_WITH" },
+    { "from": "1", "to": "15", "type": "FRIEND_WITH" },
+    { "from": "1", "to": "16", "type": "FRIEND_WITH" },
+    { "from": "1", "to": "17", "type": "FRIEND_WITH" },
+    { "from": "1", "to": "18", "type": "FRIEND_WITH" },
+
+    { "from": "1", "to": "19", "type": "LOVED", "period": "Lớp 10" },
+    { "from": "1", "to": "20", "type": "LOVED", "period": "Lớp 11" },
+    { "from": "1", "to": "21", "type": "LOVED", "period": "Lớp 12" },
+    { "from": "1", "to": "22", "type": "LOVED", "period": "Năm 2 Đại học" },
+    { "from": "1", "to": "23", "type": "LOVED", "period": "Năm 3 Đại học", "start_date": "2025-09-07" }
+  ]
+}
