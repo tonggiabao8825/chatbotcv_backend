@@ -19,7 +19,8 @@ app.add_middleware(
         "tonggiabao.id.vn",
         "www.tonggiabao.id.vn",
         "https://tonggiabao.github.io/demochatbotcv",
-        "http://localhost:5500"
+        "http://localhost:5501",
+        "https://ideal-barnacle-r55w5xv6wx9hpwpj-5501.app.github.dev"
     ],
     allow_credentials=True,
     allow_methods=["*"],
