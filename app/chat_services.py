@@ -11,7 +11,7 @@ class Gemini_services():
     def __init__(self):
         api_key = os.environ.get("GEMINI_API_KEY")
         genai.configure(api_key=api_key)
-        self.model = genai.GenerativeModel("gemini-2.0-flash-exp")
+        self.model = genai.GenerativeModel("gemini-2.0-flash")
         
     def get_cv_data(self):
         """Load CV data từ data.json"""
