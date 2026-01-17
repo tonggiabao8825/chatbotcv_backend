@@ -10,7 +10,6 @@ app = FastAPI(
     version="1.0.0"
 )
 
-# CORS configuration
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
@@ -29,12 +28,11 @@ app.add_middleware(
 
 app.include_router(chat_router)
 
-
 @app.get("/")
 async def root():
     return {"message": "Conn is ok"}
 
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 8000))  # Get PORT from environment (Render) or default to 8000
-    reload = os.environ.get("RENDER", "0") != "1"  # Disable reload on Render
+    port = int(os.environ.get("PORT", 8000))
+    reload = os.environ.get("RENDER", "0") != "1"
     uvicorn.run("main:app", host="0.0.0.0", port=port, reload=reload)
